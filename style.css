@@ -1,0 +1,149 @@
+/*--------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #9d080e;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo{
+    color: white;
+    font-size: 38px;
+    text-align: center;
+}
+h2.titulo span{
+    color: #9d080e;
+}
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #6e0509;
+    transform: scale(1.20);
+}
+/*--------------------*/
+header{
+    padding: 40px 4%;
+    box-shadow: 0px 4px 4px -2px #6e0509;
+}
+
+header > .interface{
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+
+
+}
+
+header a{
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: white;
+    transform: scale(1.20);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;   
+}
+
+
+/**/
+.subl {
+    text-decoration: underline;
+    text-decoration-color: #9d080e; 
+    text-decoration-thickness: 3px; 
+}
+
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: white;
+    font-size: 40 px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h1 span.ponto{
+    color: #9d080e;
+}
+.topo-do-site .txt-topo-site p{
+    color: white;
+    margin: 40px 0 ;
+}
+
+.texto-sobre-gif {
+    position: absolute;
+    top: 12.5%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.topo-do-site .img-topo-site {
+    position: relative;
+    animation: girar 2s linear infinite alternate;
+}
+
+@keyframes girar {
+    0% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(10deg); 
+    }
+}
+
+/**/
+
+section.especialidades{
+    padding: 40px 4%;
+}
+
+.especialidades .especialidades-box{
+    color: white;
+    padding: 40px;
+}
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: #9d080e;
+}
